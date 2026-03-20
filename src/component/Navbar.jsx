@@ -1,13 +1,13 @@
 const Navbar = () => {
   return (
-    <nav className="bg-slate-900 text-white px-8 py-4 flex justify-between items-center sticky top-0 z-50 shadow-md">
+    <nav className="bg-slate-900 text-white px-8 py-4   flex-col md:flex-row justify-between  items-center sticky top-0 z-50 shadow-md">
       
       {/* Logo */}
       <a href="#home" className="flex items-center gap-3 no-underline">
-        <div className="bg-blue-500 text-white font-bold text-sm w-9 h-9 rounded-lg flex items-center justify-center">
+        <div className="bg-blue-500 text-white font-bold text-sm w-9 h-9 rounded-lg flex items-center justify-center ">
           JB
         </div>
-        <span className="text-white font-semibold text-lg">Jayadev Bemal</span>
+        <span className="text-white font-semibold text-lg ">Jayadev Bemal</span>
       </a>
 
       {/* Nav Links */}
