@@ -29,7 +29,8 @@ const Hero = () => {
           href="#projects"
           className="bg-blue-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-400 transition">View Projects</a>
         <a
-          href="#"
+          
+          href="/resume.pdf"
           className="border border-blue-400 text-blue-400 px-6 py-3 rounded-full font-semibold hover:bg-blue-400 hover:text-white transition"
         >
           Download Resume
