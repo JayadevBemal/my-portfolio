@@ -27,11 +27,11 @@ const Hero = () => {
         
         <a
           href="#projects"
-          className="bg-blue-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-400 transition">View Projects</a>
+          className="bg-blue-500 text-white text-center px-6 py-3 rounded-full font-semibold hover:bg-blue-400 transition">View Projects</a>
         <a
           
           href="/resume.pdf"
-          className="border border-blue-400 text-blue-400 px-6 py-3 rounded-full font-semibold hover:bg-blue-400 hover:text-white transition"
+          className="border border-blue-400 text-blue-400 px-6 py-3 rounded-full font-semibold text-center hover:bg-blue-400 hover:text-white transition"
         >
           Download Resume
         </a>
